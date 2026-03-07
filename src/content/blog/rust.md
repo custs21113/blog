@@ -1,10 +1,10 @@
 ---
-title: Golang 入门
+title: Rust 入门
 date: 2026-01-12T20:10:00+08:00
 updated: 2026-01-12T20:10:00+08:00
-keywords: ["golang", "junior"]
+keywords: ["rust", "junior"]
 featured: true
-summary: "给前端工程师的 Golang 入门手册"
+summary: "给前端工程师的 rust 入门手册"
 ---
 
 
