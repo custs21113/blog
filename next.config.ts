@@ -4,6 +4,7 @@ import { withContentCollections } from "@content-collections/next";
 
 const nextConfig: NextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
+  output: 'standalone',
 };
 
 const withMDX = createMDX({
