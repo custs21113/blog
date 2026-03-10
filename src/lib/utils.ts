@@ -10,10 +10,17 @@ export function absoluteUrl(path: string) {
 }
 
 export function formatDate(date: string) {
-  const [year, month, day] = new Date(date).toLocaleDateString('zh-CN', {
+  const _date = new Date(date);
+  const [year, month, day] = _date.toLocaleDateString('zh-CN', {
     year: 'numeric',
     month: 'numeric',
-    day: 'numeric'
+    day: 'numeric',
   }).split('/');
-  return `${year}年${month}月${day}日`;
+  const hour = _date.getHours();
+  const minute = _date.getMinutes();
+
+  const formattedMinute = minute.toString().padStart(2, '0');
+  const formattedHour = hour.toString().padStart(2, '0');
+
+  return `${year}年${month}月${day}日 ${formattedHour}时${formattedMinute}分`;
 }

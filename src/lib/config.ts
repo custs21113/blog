@@ -1,7 +1,7 @@
 export const config = {
   site: {
     title: "磐一的博客",
-    name: "磐一的博客",
+    name: "磐一",
     description: "Thoughts on Full-stack development, AI",
     keywords: ["磐一的博客", "AI", "Full Stack Developer"],
     url: "https://nougat.icu",

@@ -7,8 +7,8 @@ import { formatDate } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: `Notes | ${config.site.title}`,
-  description: `Notes of ${config.site.title}`,
-  keywords: `${config.site.title}, notes, ${config.site.title} notes, nextjs note template`,
+  description: `Notes of ${config.site.name}`,
+  keywords: `${config.site.title}, notes, ${config.site.name} notes`,
 };
 
 export default function NotePage() {
